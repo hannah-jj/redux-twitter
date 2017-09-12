@@ -30,7 +30,12 @@ class App extends Component {
     var note = input[1].value;
     var imgid = Math.floor(Math.random() * 8) + 1; 
     var time = Date();
-    this.props.actions.addT({imgid: imgid, name: name, note: note, time: time});
+    if (note !== "") {
+      this.props.actions.addT({imgid: imgid, name: name, note: note, time: time});
+    }
+    
+    input[1].value = "";
+
   }
 
   handleNameCallBack(e){

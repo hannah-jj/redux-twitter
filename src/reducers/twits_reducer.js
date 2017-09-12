@@ -8,7 +8,3 @@ export default function twitsReducer(state = [], action){
 		return state;
 	}
 }
-
-function randomID(num1, num4) {
-	return Math.floor(Math.random() * 4) + 1;  
-}
