@@ -22,7 +22,7 @@ open http://localhost:3000/ in browser
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/hannah11361/R3-Village. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/hannah11361/redux-twitter. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
